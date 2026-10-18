@@ -1,0 +1,21 @@
+{
+  "checkpoint": "deep_model_results1024/best_model.pt",
+  "model_config": {
+    "model": "tcn",
+    "learning_rate": 0.001,
+    "epochs": 20,
+    "batch_size": 1024,
+    "hidden_size": 64,
+    "num_layers": 1,
+    "dropout": 0.15,
+    "weight_decay": 0.0001
+  },
+  "alignment_verified": true,
+  "test_accuracy_recomputed": 0.5024378809188936,
+  "agreement_with_saved_predictions": 1.0,
+  "n_test_samples": 21330,
+  "date_range_test": [
+    "2016-04-05",
+    "2025-10-22"
+  ]
+}

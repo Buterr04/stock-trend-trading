@@ -1,0 +1,13 @@
+{
+  "best_model": "tcn_lr0.001_ep20",
+  "device": "mps",
+  "runtime_seconds": 631.43,
+  "data": {
+    "train": 74656,
+    "val": 10669,
+    "test": 21330,
+    "time_steps": 60,
+    "channels": 33
+  },
+  "torch_version": "2.14.0"
+}

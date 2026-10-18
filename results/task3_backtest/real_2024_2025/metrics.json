@@ -1,0 +1,337 @@
+{
+  "config": {
+    "buy_class": 2,
+    "sell_class": 0,
+    "p_buy": 0.5,
+    "stop_loss": 0.05,
+    "take_profit": 0.15,
+    "max_hold_days": 20,
+    "cost_rate": 0.001,
+    "position_fraction": 0.1,
+    "max_positions": 10,
+    "exec_delay": 1
+  },
+  "backtest_window": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "trading_days": 485,
+  "n_signals": 4136,
+  "main": {
+    "name": "主策略",
+    "start": "2024-01-02",
+    "end": "2025-12-31",
+    "trading_days": 485,
+    "total_return": 1.0565515335410054,
+    "cagr": 0.43726970417122657,
+    "annual_vol": 0.23295417549889805,
+    "sharpe": 1.6747766478417665,
+    "sortino": 1.8665909916592034,
+    "max_drawdown": -0.1419508791966947,
+    "calmar": 3.0804296996661953,
+    "avg_position_ratio": 0.6424734651163324,
+    "avg_n_positions": 6.480412371134021,
+    "n_trades": 291,
+    "win_rate": 0.49828178694158076,
+    "avg_trade_return": 0.026593849696193095,
+    "avg_win": 0.10014328475586727,
+    "avg_loss": -0.0464518221096477,
+    "profit_factor": 2.141086556557788,
+    "avg_bars_held": 11.137457044673539,
+    "best_trade": 0.2570639773519168,
+    "worst_trade": -0.08181082802547779,
+    "annual_turnover": 28.302414417414962
+  },
+  "no_risk": {
+    "name": "无风控",
+    "start": "2024-01-02",
+    "end": "2025-12-31",
+    "trading_days": 485,
+    "total_return": 1.2969698271769605,
+    "cagr": 0.519478713217173,
+    "annual_vol": 0.3711447022659928,
+    "sharpe": 1.311005129636936,
+    "sortino": 1.5404035473080422,
+    "max_drawdown": -0.1877732410209274,
+    "calmar": 2.76652152560586,
+    "avg_position_ratio": 0.7659077834335856,
+    "avg_n_positions": 7.7195876288659795,
+    "n_trades": 197,
+    "win_rate": 0.583756345177665,
+    "avg_trade_return": 0.046989963572083876,
+    "avg_win": 0.1198989129722989,
+    "avg_loss": -0.05526039229407133,
+    "profit_factor": 3.042883113089334,
+    "avg_bars_held": 20.00507614213198,
+    "best_trade": 1.1479670131771593,
+    "worst_trade": -0.18664617707150988,
+    "annual_turnover": 19.06421256426533
+  },
+  "exec_delay_0": {
+    "name": "t日开盘执行",
+    "start": "2024-01-02",
+    "end": "2025-12-31",
+    "trading_days": 485,
+    "total_return": 0.8761731568578746,
+    "cagr": 0.372402918687029,
+    "annual_vol": 0.20522893404967643,
+    "sharpe": 1.6453744577621323,
+    "sortino": 2.0363716075855223,
+    "max_drawdown": -0.1325890940735771,
+    "calmar": 2.8086994732792503,
+    "avg_position_ratio": 0.6564852125335219,
+    "avg_n_positions": 6.624742268041237,
+    "n_trades": 292,
+    "win_rate": 0.4726027397260274,
+    "avg_trade_return": 0.0232054907136718,
+    "avg_win": 0.09995398143404387,
+    "avg_loss": -0.04556913084094733,
+    "profit_factor": 1.9655663942060204,
+    "avg_bars_held": 11.356164383561644,
+    "best_trade": 0.25122513432835825,
+    "worst_trade": -0.08115615552099531,
+    "annual_turnover": 28.391399388669253
+  },
+  "market_buy_hold": {
+    "name": "全市场等权买入持有",
+    "start": "2024-01-02",
+    "end": "2025-12-31",
+    "trading_days": 485,
+    "total_return": 0.3432671562802445,
+    "cagr": 0.16005231902524986,
+    "annual_vol": 0.24250369437922184,
+    "sharpe": 0.7342602724567837,
+    "sortino": 0.8880559340619102,
+    "max_drawdown": -0.25234229000789454,
+    "calmar": 0.6342667296085908,
+    "avg_position_ratio": 1.0,
+    "avg_n_positions": 0.0
+  },
+  "always_long_20d": {
+    "n": 4123,
+    "mean": 0.01722308190350606,
+    "median": 0.009826666224770575,
+    "win_rate": 0.5491147222895949
+  },
+  "random_signal": {
+    "total_return_median": 0.48253500533726623,
+    "total_return_p05": 0.27324663738080207,
+    "total_return_p95": 0.7403079125754601,
+    "sharpe_median": 1.0572601461362652,
+    "sharpe_p95": 1.5955437740997498,
+    "max_dd_median": -0.14469622570559215,
+    "real_total_return_percentile": 1.0,
+    "real_sharpe_percentile": 0.965
+  },
+  "capacity": [
+    {
+      "position_fraction": 0.2,
+      "max_positions": 5,
+      "max_gross": 1.0,
+      "n_trades": 166,
+      "total_return": 1.422955259405979,
+      "cagr": 0.5608508114889774,
+      "sharpe": 1.31539083857532,
+      "max_drawdown": -0.2748080847393971,
+      "avg_position_ratio": 0.7103081410805564,
+      "win_rate": 0.4939759036144578
+    },
+    {
+      "position_fraction": 0.1,
+      "max_positions": 10,
+      "max_gross": 1.0,
+      "n_trades": 291,
+      "total_return": 1.0565515335410054,
+      "cagr": 0.43726970417122657,
+      "sharpe": 1.6747766478417665,
+      "max_drawdown": -0.1419508791966947,
+      "avg_position_ratio": 0.6424734651163324,
+      "win_rate": 0.49828178694158076
+    },
+    {
+      "position_fraction": 0.1,
+      "max_positions": 20,
+      "max_gross": 2.0,
+      "n_trades": 334,
+      "total_return": 1.095371768949951,
+      "cagr": 0.45085541563394327,
+      "sharpe": 1.7108090017748296,
+      "max_drawdown": -0.14180665394476977,
+      "avg_position_ratio": 0.6481631603413281,
+      "win_rate": 0.5119760479041916
+    },
+    {
+      "position_fraction": 0.05,
+      "max_positions": 20,
+      "max_gross": 1.0,
+      "n_trades": 488,
+      "total_return": 1.0016046167547499,
+      "cagr": 0.4178204784670625,
+      "sharpe": 2.0439245543002977,
+      "max_drawdown": -0.09561167823734251,
+      "avg_position_ratio": 0.5722046560910006,
+      "win_rate": 0.5184426229508197
+    },
+    {
+      "position_fraction": 0.05,
+      "max_positions": 30,
+      "max_gross": 1.5,
+      "n_trades": 527,
+      "total_return": 1.0163768631506724,
+      "cagr": 0.4230751241367856,
+      "sharpe": 2.061400263344915,
+      "max_drawdown": -0.09560167491065796,
+      "avg_position_ratio": 0.5742200118973598,
+      "win_rate": 0.5180265654648957
+    },
+    {
+      "position_fraction": 0.03333,
+      "max_positions": 30,
+      "max_gross": 1.0,
+      "n_trades": 620,
+      "total_return": 0.8444879658116864,
+      "cagr": 0.36069318424646624,
+      "sharpe": 2.330337661240963,
+      "max_drawdown": -0.06754665181979846,
+      "avg_position_ratio": 0.48989466672437537,
+      "win_rate": 0.5241935483870968
+    },
+    {
+      "position_fraction": 0.03,
+      "max_positions": 40,
+      "max_gross": 1.2,
+      "n_trades": 678,
+      "total_return": 0.8208343993581102,
+      "cagr": 0.35188635597419204,
+      "sharpe": 2.416102493259053,
+      "max_drawdown": -0.06095699806942756,
+      "avg_position_ratio": 0.4682456553082474,
+      "win_rate": 0.5309734513274337
+    }
+  ],
+  "hold_days": [
+    {
+      "max_hold_days": 5,
+      "n_trades": 535,
+      "total_return": 0.998000016980565,
+      "cagr": 0.41653536185697404,
+      "sharpe": 1.7109689779720003,
+      "max_drawdown": -0.10649129011543568,
+      "win_rate": 0.5626168224299065,
+      "avg_bars_held": 4.300934579439252,
+      "avg_trade_return": 0.013521753854449389
+    },
+    {
+      "max_hold_days": 10,
+      "n_trades": 401,
+      "total_return": 1.179383972053086,
+      "cagr": 0.47983491355174057,
+      "sharpe": 1.8397260735118812,
+      "max_drawdown": -0.11101911210135196,
+      "win_rate": 0.5536159600997507,
+      "avg_bars_held": 7.326683291770574,
+      "avg_trade_return": 0.020525013710369702
+    },
+    {
+      "max_hold_days": 20,
+      "n_trades": 291,
+      "total_return": 1.0565515335410054,
+      "cagr": 0.43726970417122657,
+      "sharpe": 1.6747766478417665,
+      "max_drawdown": -0.1419508791966947,
+      "win_rate": 0.49828178694158076,
+      "avg_bars_held": 11.137457044673539,
+      "avg_trade_return": 0.026593849696193095
+    },
+    {
+      "max_hold_days": 30,
+      "n_trades": 268,
+      "total_return": 1.0702046786843917,
+      "cagr": 0.44206223482463347,
+      "sharpe": 1.7595849522609193,
+      "max_drawdown": -0.13950076467188377,
+      "win_rate": 0.47388059701492535,
+      "avg_bars_held": 13.324626865671641,
+      "avg_trade_return": 0.02924126358276747
+    },
+    {
+      "max_hold_days": 40,
+      "n_trades": 246,
+      "total_return": 1.1671258281312191,
+      "cagr": 0.47564156938308,
+      "sharpe": 1.7655092145721993,
+      "max_drawdown": -0.1542930895169008,
+      "win_rate": 0.4715447154471545,
+      "avg_bars_held": 14.573170731707316,
+      "avg_trade_return": 0.034049350762795506
+    },
+    {
+      "max_hold_days": 50,
+      "n_trades": 235,
+      "total_return": 1.0177187011042759,
+      "cagr": 0.42355148107298524,
+      "sharpe": 1.6224103373360574,
+      "max_drawdown": -0.14456410160151445,
+      "win_rate": 0.451063829787234,
+      "avg_bars_held": 15.748936170212765,
+      "avg_trade_return": 0.032658170093819855
+    }
+  ],
+  "yearly": [
+    {
+      "year": 2024,
+      "total_return": 0.45324250953525325,
+      "sharpe": 2.4441156231679493,
+      "max_drawdown": -0.11971480815621383,
+      "avg_position_ratio": 0.6033705216408146,
+      "n_trades": 162,
+      "win_rate": 0.4691358024691358
+    },
+    {
+      "year": 2025,
+      "total_return": 0.4151468320305991,
+      "sharpe": 1.3537146164601224,
+      "max_drawdown": -0.11906983197117704,
+      "avg_position_ratio": 0.6814154911289879,
+      "n_trades": 129,
+      "win_rate": 0.5348837209302325
+    }
+  ],
+  "exit_reasons": [
+    {
+      "reason": "stop_loss",
+      "count": 123
+    },
+    {
+      "reason": "max_hold",
+      "count": 98
+    },
+    {
+      "reason": "take_profit",
+      "count": 70
+    }
+  ],
+  "signal_hit_rate": [
+    {
+      "pred": 0,
+      "n": 1250,
+      "hit_rate": 0.4192,
+      "hit_pull": 0.3328,
+      "hit_fall": 0.4192
+    },
+    {
+      "pred": 1,
+      "n": 1341,
+      "hit_rate": 0.580909768829232,
+      "hit_pull": 0.3214019388516033,
+      "hit_fall": 0.0976882923191648
+    },
+    {
+      "pred": 2,
+      "n": 1545,
+      "hit_rate": 0.5967637540453075,
+      "hit_pull": 0.5967637540453075,
+      "hit_fall": 0.13980582524271845
+    }
+  ]
+}

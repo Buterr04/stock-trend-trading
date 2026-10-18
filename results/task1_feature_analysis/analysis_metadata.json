@@ -1,0 +1,19 @@
+{
+  "train_shape": [
+    74656,
+    60,
+    33
+  ],
+  "val_shape": [
+    10669,
+    60,
+    33
+  ],
+  "test_shape": [
+    21330,
+    60,
+    33
+  ],
+  "aggregate_feature_count": 264,
+  "output_dir": "/Users/daiguorui/VSProject/dataset/feature_analysis_results"
+}
