@@ -61,6 +61,7 @@ python src/task2_deep_models/train_deep_sequence_models.py
 | `task3_prepare_data.py` | 数据准备：把任务二 TCN 模型的测试集预测对齐到真实 (code, date)，生成信号与真实 OHLC 价格面板 |
 | `task3_backtest_2024_2025.py` | 真实口径回测：次日开盘撮合、止损/止盈/最长持有、固定仓位、交易成本，主策略累计收益 +105.66% |
 | `verify_task3_results.py` | 独立复核回测结果（账目恒等式、撮合、时点） |
+| `task3_backtest_long_short.py` | 多空双向扩展：预测拉伸做多、预测下跌做空（引擎经仅做多版本逐位验证），多空组合累计收益 +142.30%，详见 `results/task3_backtest/long_short_2024_2025/README.md` |
 
 运行流程：
 
@@ -70,7 +71,7 @@ python src/task3_strategy_backtest/task3_backtest_2024_2025.py
 python src/task3_strategy_backtest/verify_task3_results.py
 ```
 
-结果输出至 `results/task3_backtest/real_2024_2025/`。
+结果输出至 `results/task3_backtest/real_2024_2025/`（主策略）与 `results/task3_backtest/long_short_2024_2025/`（多空双向扩展）。
 数据对齐审计结论见 `docs/任务三_数据对齐审计.md`。
 
 
